@@ -305,5 +305,3 @@ def view():
     #     tc.to_excel(writer,sheet_name="Teacher Slots")#ts
     return send_file("static/final.xlsx", as_attachment=True)
 
-if __name__ == '__main__':
-    app.run(debug=True)
